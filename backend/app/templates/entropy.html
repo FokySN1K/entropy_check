@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+      {% for URL in url %}
+            <img src="{{URL[0]}}" alt="" width="600" height="400">
+            <br>
+            <a href="{{URL[0]}}" download>{{URL[1]}}</a>
+            <br>
+      {% endfor %}
+
+
+
+{% endblock %}

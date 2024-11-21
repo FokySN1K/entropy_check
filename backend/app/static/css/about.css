@@ -1,0 +1,26 @@
+#entropy_div {
+  width: 400px;
+  height: 400px;
+  background-color: #EAF0E3;
+  opacity: 0.8;
+  border-radius: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#h1_div_entr{
+    text-align: center;
+    color: #19311F;
+}
+#entropy_form{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+.entr_input{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+form {text-align:center;}

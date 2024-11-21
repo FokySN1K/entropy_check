@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <title>{% block title %} {% endblock %}</title>
+
+    {% block link %}
+    {% endblock %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+
+</head>
+
+<header>
+    <div ><p id="header_user_id">Your user_id: {{user_id}}</p></div>
+    <div><a id="header_home" href="{{url_for('index')}}">to Home</a></div>
+</header>
+
+<body>
+
+
+
+
+    {% block content %}
+	{% endblock %}
+
+
+</body>
+</html>

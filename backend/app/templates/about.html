@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block link %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+{% endblock %}
+{% block content %}
+
+
+
+    <div id="entropy_div">
+        <h1 id="h1_div_entr">Попробуем исследовать энтропию:</h1>
+        <form method=post enctype=multipart/form-data id="entropy_form">
+            <label for="input_entr">Мой текст</label>
+          <input type=file name=file id="input_entr" class="entr_input" placeholder="123">
+          <input type=submit value=Загрузить>
+        </form>
+
+    </div>
+
+
+    {% with messages = get_flashed_messages() %}
+       {% if messages %}
+          {% for message in messages %}
+             {{ message }}
+          {% endfor %}
+       {% endif %}
+    {% endwith %}
+
+{% endblock %}

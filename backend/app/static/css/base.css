@@ -1,0 +1,22 @@
+html{
+
+    background-image: url('/static/gif/rain.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Jacques Francois Shadow';font-size: 22px;
+}
+
+
+#header_user_id{
+    font-size: 24px;
+    font-family: Impact, fantasy;
+    color: #2DF299;
+    top: 15px;
+    left: 15px;
+}
+#header_home{
+    font-size: 24px;
+    font-family: Impact, fantasy;
+    color: #2DF299;
+
+}
