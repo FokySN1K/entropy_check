@@ -357,6 +357,6 @@ pyvenv.cfg
 pip-selfcheck.json
 
 #another
-*/static/USERS_FILE/*
 !.gitkeep
 # End of https://www.toptal.com/developers/gitignore/api/python,venv,pycharm+all,pycharm
+*/app/static/USERS_FILE/*
