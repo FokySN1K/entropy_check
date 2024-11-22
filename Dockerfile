@@ -8,5 +8,4 @@ RUN pip install -r requirements.txt
 COPY ./backend/ /entropy_site/backend
 ENV PYTHONPATH = /entropy_site
 
-EXPOSE 5000
 CMD python /entropy_site/backend/run.py
